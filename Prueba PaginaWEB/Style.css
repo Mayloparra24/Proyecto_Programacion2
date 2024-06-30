@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}   
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('Imagenes/Autobus.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(8, 0, 0, 0.2);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 1px rgba(255,255,255,.2);
+    color: rgb(19, 1, 1);/* Color del h1*/
+    border-radius: 10px;
+    padding: 20px ;
+}
+
+.contenedor h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenedor .input-box{ 
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 4, 5, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #130101;/* Color de los inputs*/
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.contenedor button{
+    width: 100%;
+    height: 45px;
+    background: #6c0f35;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(190, 101, 101, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #f4ecec;/* Color de texto en boton*/
+    font-weight: 500;
+}
+
+
+.btn {
+    background-color: #6c0f35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Creditos h1{
+    font-size: 30px;
+    color: #580628;
+}
